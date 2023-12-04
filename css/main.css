@@ -45,7 +45,18 @@ Couples Resort Responsive Build
  .cr-red {
     color: #9a2018;
  }
- 
+  img{
+   display: block;
+   max-width: 100%;
+  }
+
+  .img-resize {
+   width: 90%;
+  }
+
+  .text-resize {
+   width: 80%;
+  }
  
  /* 2. ---Main Nav--- */
  
@@ -115,6 +126,12 @@ Couples Resort Responsive Build
     background: url(../images/hero-main.jpg) no-repeat;
     height: 200px;
  }
+
+ #dining-hero {
+   background: url(../images/dining-head.jpg) no-repeat;
+   height: 200px;
+}
+
  
  .book-now {
     background-color: #9a2018;
@@ -132,10 +149,17 @@ Couples Resort Responsive Build
  .book-now:hover {
     background-color: rgb(196, 28, 28);
  }
+
+.gourmet {
+   font-size: 20px;
+   border-left: #CF6666 solid 4px;
+   padding-left: 10px;
+   margin-bottom: 15px;
+}
  
  #book-now-hero {
     height: 67px;
- }
+ } 
  
  #hero-heading-box {
     align-self: end;
@@ -278,6 +302,11 @@ Couples Resort Responsive Build
     height: 195px;
  }
  
+ #gourmet-ml {
+   background: url(../images/meal.jpg) no-repeat;
+   height: 195px;
+}
+
  #about-hero-heading-box {
     align-self: end;
  }
@@ -342,6 +371,13 @@ Couples Resort Responsive Build
     margin-top: 20px;
     margin-bottom: 20px;
  }
+
+ #award{
+   font-size: 20px;
+   color: #9a2018;
+   text-align: center;
+   margin: 100px auto;
+ }
  
  /* 7. ---Contact--- */
  
@@ -349,6 +385,16 @@ Couples Resort Responsive Build
     background: url(../images/contact-hero.jpg);
     height: 195px;
  }
+
+ #contact-dining-con {
+   background: url(../images/dining-contact.jpg);
+   height: 195px;
+}
+
+#contact-activities-con {
+   background: url(../images/activites-contact.jpg);
+   height: 195px;
+}
  
  #contact-hero-heading-box {
     align-self: end;
@@ -422,7 +468,8 @@ Couples Resort Responsive Build
     margin-top: 40px;
     padding-bottom: 80px;
  }
- 
+
+
  #footer-hero h3 {
     margin-top: 30px;
     font-size: 28px;
