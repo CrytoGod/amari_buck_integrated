@@ -54,9 +54,7 @@ Couples Resort Responsive Build
    width: 90%;
   }
 
-  .text-resize {
-   width: 80%;
-  }
+
  
  /* 2. ---Main Nav--- */
  
@@ -132,6 +130,11 @@ Couples Resort Responsive Build
    height: 200px;
 }
 
+#activities {
+   background: url(../images/winter-412.jpg) no-repeat;
+   height: 200px;
+}
+
  
  .book-now {
     background-color: #9a2018;
@@ -146,6 +149,30 @@ Couples Resort Responsive Build
     cursor: pointer;
  }
  
+ #book-now-hero:active::after {
+   content: "Well Done";
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #fff;
+   font-size: 18px;
+   opacity: 0;
+   animation: wellDoneAnimation 1s ease-in-out forwards;
+}
+
+@keyframes wellDoneAnimation {
+   0% {
+       opacity: 0;
+       transform: translate(-50%, -50%) scale(0.5);
+   }
+   100% {
+       opacity: 1;
+       transform: translate(-50%, -50%) scale(1);
+   }
+}
+
+
  .book-now:hover {
     background-color: rgb(196, 28, 28);
  }
@@ -160,6 +187,8 @@ Couples Resort Responsive Build
  #book-now-hero {
     height: 67px;
  } 
+
+ 
  
  #hero-heading-box {
     align-self: end;
@@ -188,6 +217,35 @@ Couples Resort Responsive Build
     margin-bottom: 20px;
  }
  
+ #act-summary p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+
+ #w-intro{
+   padding-top: 50px;
+   padding-bottom: 20px;
+ }
+
+
+ .all-inc-button {
+   margin-bottom: 80px;
+   margin-top: 50px;
+}
+
+.all-inc-button h3 {
+   background:#9a2018;
+   padding: 16px;
+   font-size: 16px;
+   text-align: center; 
+   color: #ffffff;
+
+}
+
+
+
  /* 4. ---Main Hero Image Contact--- */
  
  .fas {
@@ -243,6 +301,11 @@ Couples Resort Responsive Build
    background: url(../images/why-choose-us-hero.jpg) no-repeat;
    height: 195px;
  }
+
+ #jay-con {
+   background: url(../images/jay-412.jpg) no-repeat;
+   height: 195px;
+ }
  
  #why-choose-us-heading-box {
     align-self: end;
@@ -292,8 +355,36 @@ Couples Resort Responsive Build
     padding: 5px;
     color: #fff;
  }
+
+#af{
+   font-weight: bold;
+}
+
+.par{
+   
+   padding-bottom: 15px;
+}
+
+ul{
+   margin-left: -40px;
+}
+
+ul li{
+   list-style: none;
+   color: inherit; 
+   font-size: inherit;
+   font-size: 15px;
+   
+}
+
+ .list{
+   padding-bottom: 30px;
+ }
  
- 
+ #skate{
+   margin-top: 100px ;
+   margin-bottom: 100px ;
+ }
  
  /* 6. ---About & FAQ--- */
  
@@ -306,6 +397,22 @@ Couples Resort Responsive Build
    background: url(../images/meal.jpg) no-repeat;
    height: 195px;
 }
+
+#jay-con{
+   background: url(../images/jay-412.jpg) no-repeat;
+   height: 195px;
+}
+
+#park-con{
+   background: url(../images/park-412.jpg) no-repeat;
+   height: 195px;
+}
+
+#act-con{
+   background: url(../images/activities-412.jpg) no-repeat;
+   height: 195px;
+}
+
 
  #about-hero-heading-box {
     align-self: end;
@@ -320,10 +427,26 @@ Couples Resort Responsive Build
     margin-bottom: 20px;
     line-height: 22px;
  }
- 
+
  #about-us-text-column2 {
     font-style: italic;
  }
+
+ #p-a-heading-box {
+   align-self: end;
+}
+
+#p-a-text {
+   padding-bottom: 60px;
+}
+
+#p-a-text p {
+   font-size: 14px;
+   margin-bottom: 20px;
+   line-height: 22px;
+}
+
+
  
  #faq-con {
     background-color: #f4f4f4;
@@ -372,13 +495,71 @@ Couples Resort Responsive Build
     margin-bottom: 20px;
  }
 
+ /* dining*/
  #award{
    font-size: 20px;
    color: #9a2018;
    text-align: center;
-   margin: 100px auto;
+   margin: 80px auto;
  }
+
+ #will{
+   padding-bottom: 80px;
+    }
  
+    .menu {
+      margin-bottom: 10px;
+         }
+   
+   .menu h3 {
+      background: #c9c9c9;
+      padding: 14px;
+      font-size: 16px;
+   }
+
+   .sub-menu {
+      border-bottom: #333 solid 1px;
+      border-top: #333 solid 1px;
+
+         }
+   
+   .sub-menu h3 {
+      background: #acacac;
+      padding: 8px;
+      font-size: 16px;
+   }
+
+   /*--activities----*/
+
+#act-drop{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.act-items {
+      margin-bottom: 10px;
+         }
+
+ .act-items h3 {
+            background: #e8e7e7;
+            padding: 14px;
+            font-size: 16px;
+         
+ }
+
+ #fishing{
+   background-image: url(../images/fishing-412.jpg);
+   background-color:#4b4b4b;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: overlay;
+   margin-top: 100px ;
+   margin-bottom: 100px ;
+   color: white;
+ }
+
+
+
  /* 7. ---Contact--- */
  
  #contact-hero-con {
