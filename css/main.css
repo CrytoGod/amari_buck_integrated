@@ -182,7 +182,10 @@ Couples Resort Responsive Build
    border-left: #CF6666 solid 4px;
    padding-left: 10px;
    margin-bottom: 15px;
+
 }
+
+
  
  #book-now-hero {
     height: 67px;
@@ -517,17 +520,25 @@ ul li{
       font-size: 16px;
    }
 
-   .sub-menu {
-      border-bottom: #333 solid 1px;
-      border-top: #333 solid 1px;
 
-         }
    
    .sub-menu h3 {
       background: #acacac;
       padding: 8px;
       font-size: 16px;
    }
+
+#beer{
+   background-color: white;
+   align-items: center;
+   text-align: center;
+}
+
+#beer ul li {
+   padding-top: 25px;
+}
+
+
 
 #vegan{
    text-align: center;
